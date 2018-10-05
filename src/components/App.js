@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className='container-fluid' style={{backgroundColor: '#20232a', height: '100vh', minHeight : '100vh'}}>
+        <div className='container-fluid' style={{backgroundColor: '#000', height: '100%', width: '100%'}}>
           <Switch>
             <Route exact path='/' component={Dashboard}/>
             <Route render={() => <p>Not Found</p>}/>
