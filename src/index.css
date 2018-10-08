@@ -8,3 +8,32 @@ input[type="number"], textarea {
     border: ridge #999 1px;
     text-align: center;
 }
+
+
+/*----------------------------------------------------Run Options----------------------------------------------------*/
+.rc-slider-track {
+    background-color: #2b9def;
+}
+
+.rc-slider-handle {
+    border-color: #2b9def;
+}
+
+.svgButtons {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.runoptions-body-header, .parameters-header {
+    padding: 20px;
+    color: #f96109
+}
+
+svg text {
+  opacity:0;
+}
+
+svg text:hover
+{opacity:1;
+}

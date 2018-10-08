@@ -5,7 +5,7 @@ export default class Parameters extends Component {
     return (
       <div className='parameters-container text-center'
            style={{height: '100vh', overflowY: 'scroll'}}>
-        <div className='parameters-header' style={{margin: '20px'}}>
+        <div className='parameters-header'>
           <h3>Parameters</h3>
         </div>
         <div className='parameters-body'>

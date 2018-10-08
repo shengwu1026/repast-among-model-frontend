@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Parameters from './Parameters';
 import RunOptions from './RunOptions'
-import Plots from './Plots'
+import Charts from './Charts'
 
 class Dashboard extends Component {
   render() {
@@ -14,6 +14,7 @@ class Dashboard extends Component {
           
           <div className='col-10'>
             <RunOptions/>
+            <Charts/>
           </div>
         </div>
       </div>
