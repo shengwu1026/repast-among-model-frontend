@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 function getParams() {
-  return axios.get(`http://localhost:8080/parameters`)
+  return axios.get(`/api/parameters`)
     .then(response => (response.data))
 }
 
@@ -29,7 +29,7 @@ export default class Parameters extends Component {
 
     return axios({
       method: 'post',
-      url: `http://localhost:8080/parameters/setParam?name=${name}&value=${value}`,
+      url: `/api/parameters/setParam?name=${name}&value=${value}`,
       config: { headers: { 'Content-Type': 'application/json' }}
     }).then(
       getParams()
