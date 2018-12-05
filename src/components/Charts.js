@@ -4,7 +4,7 @@ import { Line } from 'react-chartjs-2';
 import Loading from "./Loading";
 
 function getCharts() {
-  return axios.get(`http://localhost:8080/charts/`)
+  return axios.get(`/api/charts/`)
     .then(response => (response.data))
 }
 
